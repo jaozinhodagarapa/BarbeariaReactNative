@@ -3,7 +3,7 @@ import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View, ScrollView 
 
 function AdmCadastroScreen(): JSX.Element {
 
-    const [name, setName] = useState("");
+    const [nome, setNome] = useState("");
     const [celular, setCelular] = useState("");
     const [email, setEmail] = useState("");
     const [cpf, setCpf] = useState("");
@@ -20,7 +20,7 @@ function AdmCadastroScreen(): JSX.Element {
 
     function cadastro(){
         const dados = {
-            name: name,
+            nome: nome,
             celular: celular,
             email: email,
             cpf:cpf,
@@ -51,7 +51,7 @@ function AdmCadastroScreen(): JSX.Element {
     style={[styles.input, styles.fullWidth]}
     placeholder="Nome"
     placeholderTextColor="#151413"
-    onChangeText={(textName) => setName(textName)}
+    onChangeText={(textName) => setNome(textName)}
   />
   </View>
   <View style={styles.inputContainer}>
