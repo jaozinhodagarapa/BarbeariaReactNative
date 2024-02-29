@@ -90,10 +90,10 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#061153'
+        backgroundColor: '#16B3EA'
     },
     card:{
-        backgroundColor: "#061781",
+        backgroundColor: "#09E0D0",
         width: 300,
         borderRadius: 10,
         padding: 20,
@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
         textAlign: 'center'
     },
     button: {
-        backgroundColor: '#2009E2',
+        backgroundColor: '#0BDD45',
         height: 40,
         borderRadius: 8
     },
