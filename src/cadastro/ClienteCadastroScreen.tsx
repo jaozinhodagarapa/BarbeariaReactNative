@@ -21,6 +21,7 @@ function AdmCadastroScreen(): JSX.Element {
     function cadastro(){
         const dados = {
             name: name,
+            celular: celular,
             email: email,
             cpf:cpf,
             dataNascimento,
